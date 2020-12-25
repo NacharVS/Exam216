@@ -6,7 +6,12 @@ namespace Exam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Leave hope behind all who enters here...");
+            int[] array = new int[10];
+            Random rnd = new Random();
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rnd.Next(-100, 100); 
+
+
         }
     }
 }
